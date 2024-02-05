@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photo Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2017">2017</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2018">2018</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2019">2019</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2020">2020</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2021">2021</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2022">2022</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2023">2023</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Image header -->
+<div>
+    <img src="images/image81.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+</div>
+
+<!-- About section -->
+<div id="about">
+    <h2 class="text-center mt-5 text-light">About</h2>
+    <p class="text-center text-light">Image gallery of nature through the years. Can you guess the location where the images are taken?</p>
+</div>
+
+<!-- Slideshow of some images in the gallery -->
+<div class="d-flex align-items-center justify-content-center">
+    <div id="carouselExampleSlidesOnly" class="carousel slide w-25" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/image1.jpg" alt="Slide 1" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image24.jpg" alt="Slide 2" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image76.jpg" alt="Slide 3" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image21.jpg" alt="Slide 4" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image80.jpg" alt="Slide 5" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image31.jpg" alt="Slide 6" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image38.jpg" alt="Slide 7" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image15.jpg" alt="Slide 8" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image29.jpg" alt="Slide 9" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image26.jpg" alt="Slide 10" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image81.jpg" alt="Slide 10" style="width: 300px; height: 500px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/image34.jpg" alt="Slide 10" style="width: 300px; height: 500px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery year by year -->
+<div id="2017">
+    <h2 class="text-center mt-5 text-light">2017</h2>
+    <div class="gallery mt-5">
+        <img src="images/image1.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image2.jpg" alt="Image 2" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image3.jpg" alt="Image 3" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image4.jpg" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image5.jpg" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image6.jpg" alt="Image 6" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image7.jpg" alt="Image 7" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image8.jpg" alt="Image 8" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image9.jpg" alt="Image 9" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image10.jpg" alt="Image 10" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image11.jpg" alt="Image 11" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image12.jpg" alt="Image 12" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image13.jpg" alt="Image 13" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image14.jpg" alt="Image 14" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2018">
+    <h2 class="text-center mt-5 text-light">2018</h2>
+    <div class="gallery mt-5">
+        <img src="images/image15.jpg" alt="Image 15" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image16.jpg" alt="Image 16" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image17.jpg" alt="Image 17" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2019">
+    <h2 class="text-center mt-5 text-light">2019</h2>
+    <div class="gallery mt-5">
+        <img src="images/image18.jpg" alt="Image 18" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image19.jpg" alt="Image 19" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image20.jpg" alt="Image 20" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image21.jpg" alt="Image 21" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image22.jpg" alt="Image 22" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image23.jpg" alt="Image 23" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image24.jpg" alt="Image 24" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image25.jpg" alt="Image 25" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image26.jpg" alt="Image 26" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image27.jpg" alt="Image 27" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2020">
+    <h2 class="text-center mt-5 text-light">2020</h2>
+    <div class="gallery mt-5">
+        <img src="images/image28.jpg" alt="Image 28" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image29.jpg" alt="Image 29" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image30.jpg" alt="Image 30" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image31.jpg" alt="Image 31" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image32.jpg" alt="Image 32" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image33.jpg" alt="Image 33" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image34.jpg" alt="Image 34" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image35.jpg" alt="Image 35" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image36.jpg" alt="Image 36" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image37.jpg" alt="Image 37" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image38.jpg" alt="Image 38" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image39.jpg" alt="Image 39" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2021">
+    <h2 class="text-center mt-5 text-light">2021</h2>
+    <div class="gallery mt-5">
+        <img src="images/image40.jpg" alt="Image 40" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image41.jpg" alt="Image 41" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image42.jpg" alt="Image 42" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image43.jpg" alt="Image 43" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image44.jpg" alt="Image 44" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image45.jpg" alt="Image 45" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image46.jpg" alt="Image 46" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image47.jpg" alt="Image 47" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image48.jpg" alt="Image 48" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image49.jpg" alt="Image 49" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image50.jpg" alt="Image 50" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image51.jpg" alt="Image 51" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image52.jpg" alt="Image 52" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image53.jpg" alt="Image 53" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image54.jpg" alt="Image 54" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image55.jpg" alt="Image 55" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image56.jpg" alt="Image 56" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image57.jpg" alt="Image 57" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image58.jpg" alt="Image 58" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image59.jpg" alt="Image 59" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image60.jpg" alt="Image 60" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image61.jpg" alt="Image 61" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image62.jpg" alt="Image 62" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image63.jpg" alt="Image 63" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image64.jpg" alt="Image 64" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image65.jpg" alt="Image 65" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image66.jpg" alt="Image 66" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image67.jpg" alt="Image 67" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image68.jpg" alt="Image 68" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image69.jpg" alt="Image 69" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image70.jpg" alt="Image 70" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image71.jpg" alt="Image 71" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image72.jpg" alt="Image 72" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image73.jpg" alt="Image 73" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image74.jpg" alt="Image 74" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image75.jpg" alt="Image 75" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image76.jpg" alt="Image 76" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image77.jpg" alt="Image 77" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image78.jpg" alt="Image 78" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image79.jpg" alt="Image 79" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image80.jpg" alt="Image 80" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image81.jpg" alt="Image 81" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image82.jpg" alt="Image 82" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2022">
+    <h2 class="text-center mt-5 text-light">2022</h2>
+    <div class="gallery mt-5">
+        <img src="images/image83.jpg" alt="Image 83" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image84.jpg" alt="Image 84" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image85.jpg" alt="Image 85" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image86.jpg" alt="Image 86" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image87.jpg" alt="Image 87" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image88.jpg" alt="Image 88" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image89.jpg" alt="Image 89" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image90.jpg" alt="Image 90" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image91.jpg" alt="Image 91" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image92.jpg" alt="Image 92" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image93.jpg" alt="Image 93" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image94.jpg" alt="Image 94" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image95.jpg" alt="Image 95" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image96.jpg" alt="Image 96" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image97.jpg" alt="Image 97" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image98.jpg" alt="Image 98" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image99.jpg" alt="Image 99" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image100.jpg" alt="Image 100" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image101.jpg" alt="Image 101" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image102.jpg" alt="Image 102" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image103.jpg" alt="Image 103" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image104.jpg" alt="Image 104" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image105.jpg" alt="Image 105" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image106.jpg" alt="Image 106" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image107.jpg" alt="Image 107" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image108.jpg" alt="Image 108" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image109.jpg" alt="Image 109" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image110.jpg" alt="Image 110" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image111.jpg" alt="Image 111" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image112.jpg" alt="Image 112" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image113.jpg" alt="Image 113" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image114.jpg" alt="Image 114" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image115.jpg" alt="Image 115" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image116.jpg" alt="Image 116" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image117.jpg" alt="Image 117" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image118.jpg" alt="Image 118" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image119.jpg" alt="Image 119" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image120.jpg" alt="Image 120" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image121.jpg" alt="Image 121" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image122.jpg" alt="Image 122" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image123.jpg" alt="Image 123" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image124.jpg" alt="Image 124" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image125.jpg" alt="Image 125" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image126.jpg" alt="Image 126" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image127.jpg" alt="Image 127" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image128.jpg" alt="Image 128" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<div class="pt-5" id="2023">
+    <h2 class="text-center mt-5 text-light">2023</h2>
+    <div class="gallery mt-5">
+        <img src="images/image129.jpg" alt="Image 129" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image130.jpg" alt="Image 130" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image131.jpg" alt="Image 131" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image132.jpg" alt="Image 132" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image133.jpg" alt="Image 133" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image134.jpg" alt="Image 134" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image135.jpg" alt="Image 135" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image136.jpg" alt="Image 136" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image137.jpg" alt="Image 137" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image138.jpg" alt="Image 138" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image139.jpg" alt="Image 139" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image140.jpg" alt="Image 140" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image141.jpg" alt="Image 141" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image142.jpg" alt="Image 142" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image143.jpg" alt="Image 143" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image144.jpg" alt="Image 144" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image145.jpg" alt="Image 145" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image146.jpg" alt="Image 146" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image147.jpg" alt="Image 147" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image148.jpg" alt="Image 148" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image149.jpg" alt="Image 149" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image150.jpg" alt="Image 150" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image151.jpg" alt="Image 151" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image152.jpg" alt="Image 152" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image153.jpg" alt="Image 153" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image154.jpg" alt="Image 154" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image155.jpg" alt="Image 155" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image156.jpg" alt="Image 156" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image157.jpg" alt="Image 157" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image158.jpg" alt="Image 158" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image159.jpg" alt="Image 159" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image160.jpg" alt="Image 160" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image161.jpg" alt="Image 161" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image162.jpg" alt="Image 162" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image163.jpg" alt="Image 163" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image164.jpg" alt="Image 164" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image165.jpg" alt="Image 165" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image166.jpg" alt="Image 166" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image167.jpg" alt="Image 167" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image168.jpg" alt="Image 168" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image169.jpg" alt="Image 169" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image170.jpg" alt="Image 170" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image171.jpg" alt="Image 171" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image172.jpg" alt="Image 172" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image173.jpg" alt="Image 173" class="gallery-img" onclick="showImage(src)">
+        <img src="images/image174.jpg" alt="Image 174" class="gallery-img" onclick="showImage(src)">
+    </div>
+</div>
+
+<!-- Image containter where image will show in big size -->
+<div class="image-popup-container nav-icons" id="imagePopup">
+    <span id="left_arrow" class="prev-image" title="Previous Image" onclick="moveImage('left')"><</span>
+    <span id="right_arrow" class="next-image" title="Next Image" onclick="moveImage('right')">></span>
+    <span class="close-button" onclick="closeImage()">×</span>
+    <img src="" alt="Popup Image" id="popupImage">
+</div>
+
+
+
+<!-- Optional JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
